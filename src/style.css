@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0 0;
+}
+
+#toDolist {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.task-label {
+  font-family: sans-serif;
+}
+
+#eachTask,
+#inputTask {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  padding-right: 5px;
+  color: grey;
+}
+
+#inputTask {
+  font-style: italic;
+  height: 22px;
+  border: none;
+}
+
+#clear {
+  height: 30px;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+@media screen and (min-width: 768px) {
+  #toDolist {
+    width: 65%;
+    margin: auto;
+  }
+}
