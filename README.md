@@ -20,8 +20,6 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-do list] <a name="To-do list"></a>
-In this project, I restructured my Awesome books app code, to make it more organized by using modules. I also practiced the ES6 syntax.
 
 **[To-do list page]** is a web page where you can add your to-do tasks, and also remove them when completed.
 
