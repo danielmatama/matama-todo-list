@@ -116,7 +116,7 @@ input[type="checkbox"] {
   color: green;
 }
 
-.checkbox:checked:before {
+.checkbox:checked::before {
   background-color: green;
 }
 
